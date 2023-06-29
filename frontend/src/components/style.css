@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.main_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: relative;
+
+}
+.header_container{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    background-color: #3B5998;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.header_logo{
+    height: 45px;
+    width: 45px;
+}
+.text-container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+h3{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+.tiktok-container{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.tiktok_logo{
+    height: 100px;
+    width: 96px;
+
+}
+
+h4{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.facebook_warning{
+    color: rgb(88, 86, 86);
+    margin: 5px 0;
+}
+
+.button_section{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 100%;
+    align-items: center;
+
+}
+
+.button_one{
+    width: 90%;
+    height: 45px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_one:active{
+    opacity: 0.9;
+}
+.button_two{
+    width: 90%;
+    height: 45px;
+    background-color: rgb(197, 196, 196);
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms_policy{
+    position: absolute;
+    bottom: 0;
+    
+}
+p{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 15px;
+
+    
+}
+span{
+    color: #1877f2;
+}
+.p_privacy{
+    margin-bottom: 14px;
+}
+.p_text{
+    line-height: 1.1;
+    font-weight: 100;
+    font-size: 16px;
+    color: rgb(88, 86, 86);
+
+}
+
+
+/* password_html site */
+.user_credentials_container{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.user_image{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    
+    
+}
+input{
+    margin-top: 20px;
+   border: 1px solid black;
+   border-radius: 6px;
+   height: 25px;
+   padding: 0 5px;
+   width: 200px;
+
+}
+
+button{
+    width: 180px;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.Enter_password{
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+.password_check{
+    color: rgb(88, 86, 86);
+    color: rgb(255, 40, 40);
+    font-size: 14px;
+    margin: 2px 0;
+
+}
+.password_uncheck{
+    display: none;
+}
+.password_verification{
+
+    display: flex;
+    margin-bottom: 7px;
+    width: 200px;
+
+}   
