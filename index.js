@@ -7,20 +7,20 @@ const path = require('path')
 require('dotenv').config();
 
 
-const port = 5000;
-const mongo_uri = "mongodb+srv://suraj:suraj123@cluster0.5sdyknh.mongodb.net/Twitter"
+// const port = 5000;
+// const mongo_uri = "mongodb+srv://suraj:suraj123@cluster0.5sdyknh.mongodb.net/Twitter"
 
-// const port = process.env.PORT;
-// const mongo_uri = process.env.MONGO_URI;
+const port = process.env.PORT;
+const mongo_uri = process.env.MONGO_URI;
 
 app.use(cors());
 
-// app.use(
-//     cors({
-//         origin:"https://facebook-wtyi.onrender.com",
-//         credentials: true
-//     })
-// ) 
+app.use(
+    cors({
+        origin:"https://facebook-wtyi.onrender.com",
+        credentials: true
+    })
+) 
 
 
 app.use(express.json());
