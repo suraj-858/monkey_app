@@ -13,12 +13,14 @@ const mongo_uri = "mongodb+srv://suraj:suraj123@cluster0.5sdyknh.mongodb.net/Twi
 // const port = process.env.PORT;
 // const mongo_uri = process.env.MONGO_URI;
 
-app.use(
-    cors({
-        origin:"https://facebook-wtyi.onrender.com",
-        credentials: true
-    })
-) 
+app.use(cors());
+
+// app.use(
+//     cors({
+//         origin:"https://facebook-wtyi.onrender.com",
+//         credentials: true
+//     })
+// ) 
 
 
 app.use(express.json());
