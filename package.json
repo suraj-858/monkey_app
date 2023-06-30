@@ -1,13 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm start --prefix ./frontend",
     "backend": "nodemon index.js",
-    "runer": "node index.js",
-    "both": "concurrently \" npm run start \" \" npm run runer\""
+    "both": "concurrently \" npm run start \" \" npm run backend\""
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +18,5 @@
     "express": "^4.18.2",
     "mongoose": "^7.3.1",
     "nodemon": "^2.0.22"
-  },
-  "description": ""
+  }
 }
