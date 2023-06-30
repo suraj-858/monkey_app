@@ -15,7 +15,7 @@ const mongo_uri = "mongodb+srv://suraj:suraj123@cluster0.5sdyknh.mongodb.net/Twi
 
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin:"https://facebook-wtyi.onrender.com",
         credentials: true
     })
 ) 
